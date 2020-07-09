@@ -12,6 +12,12 @@ var reverse = function (x) {
         res = res * 10 + a;
     }
     return res;
+
+    // string function으로 처리
+
+    // const reversed = Math.abs(x).toString().split('').reverse().join('');
+    // if (reversed > 2 ** 31) return 0;
+    // return reversed * Math.sign(x);
 };
 
 console.log(reverse(-123))
