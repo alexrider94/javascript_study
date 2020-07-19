@@ -18,3 +18,22 @@
 ## String
 
 - 한 번 정의된 문자열은 변하지 않는다. -> replace()로 변환가능.
+
+## Map
+
+- 인자값: currenValue,index,array.
+
+- 요소를 일과적으로 변경.
+
+## filter
+
+- 요소를 걸러내어 배열로 true/false반환,
+
+## find
+
+- 단 하나의 요소를 반환, 여러개 있으면 처음값만 반환.
+
+## reduce
+
+- 인자값은 callback, [, initvalue]
+- callback은 previousValue, currentValue, currentIndx, array 뒤에는 옵션.
